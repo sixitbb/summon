@@ -1,0 +1,10 @@
+{
+	isroot: 1,
+	gameuniverse: 'Skyrim', // includes all Skyrim flavours
+	ignorepatterns: ['data\\\\meta.ini'], // patterns are regex, and backslashes are unescaped twice: first by JSON, second time by Python regex
+	origins: {
+		NEXUS: {
+			gameids: [1704, 110] // SE, LE
+		}
+	}
+}
